@@ -3,9 +3,9 @@ apis:
     paths: 
       - /api/users?page=2
       - /api/users/2
-      - /api/users/23
+      # - /api/users/23
       - /api/unknown
       - /api/unknown/2
       - /api/users
       - /api/users/2
-      - /api/unknown/23
+      # - /api/unknown/23

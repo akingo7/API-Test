@@ -18,10 +18,18 @@ def api_urls(yaml_file):
             api_urls.append(api_url)
     return api_urls
 
-# print(api_urls(apis_filename))
-def test_status_code():
 
-    for url in api_urls(apis_filename):
-        print("Running test on the URL: " + url)
-        response = requests.get(url)
-        assert response.status_code == 200
+@pytest.mark.parametrize("url", api_urls(apis_filename))
+def test_status_code(url):
+    print("Running test on the URL: " + url)
+    response = requests.get(url)
+    assert response.status_code == 200
+
+
+# print(api_urls(apis_filename))
+# def test_status_code():
+
+#     for url in api_urls(apis_filename):
+#         print("Running test on the URL: " + url)
+#         response = requests.get(url)
+#         assert response.status_code == 200
