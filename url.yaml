@@ -9,3 +9,5 @@ apis:
       - /api/users
       - /api/users/2
       # - /api/unknown/23
+  - url: https://api.github.com
+    paths: /
