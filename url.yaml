@@ -1,13 +1,12 @@
 apis:
+  - url: https://hfappprod.hydrafacial.com
+    paths:
+      - path: /gift-card-usage/list/v2
+        auth: "No" # Takes one of ["Special", "Basic", "No"]
+        requests: ["GET"]
   - url: https://reqres.in
-    paths: 
-      - /api/users?page=2
-      - /api/users/2
-      # - /api/users/23
-      - /api/unknown
-      - /api/unknown/2
-      - /api/users
-      - /api/users/2
-      # - /api/unknown/23
-  - url: https://api.github.com
-    paths: /
+    paths:
+      - path: /api/login
+        auth: "No" # Takes one of ["Special", "Basic", "No"]
+        requests: ["POST"]
+        
