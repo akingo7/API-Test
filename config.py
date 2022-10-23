@@ -13,20 +13,9 @@ REVIEVE_ENV = "prod"
 STORE_IOS_ID = "1493385294"
 STORE_ANDROID_ID = "com.it.hydrafacial"
 APP_BUNDLE = "com.it.hydrafacial"
-CODE = "JVw1Ntjj55VbO3cDfX8ZCMw0B9lcl9YPSSuGQ2/dqssgQeH3HhoF2A=="
+CODE = ""
 auths = {
-    "Special": {
-    "hydrafacial-auth": "<AWS Token>",
-    "x-api-key": "Config.X_API_KEY",
-    "code": "Config.CODE" 
-    },
-    "Basic": {
-    "Authorization":"Bearer <AWS Token>",
-    "x-api-key": "Config.X_API_KEY",
-    "code": "Config.CODE"
-    },
-    "No": {
-    "email": "eve.holt@reqres.in",
-    "password": "cityslicka"
-}
+    "Special": {},
+    "Basic": {},
+    "No": {}
 }
