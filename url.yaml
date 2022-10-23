@@ -1,7 +1,7 @@
 apis:
-  - url: https://hfappprod.hydrafacial.com
+  - url: https://reqres.in
     paths:
-      - path: /gift-card-usage/list/v2
+      - path: /
         auth: "No" # Takes one of ["Special", "Basic", "No"]
         requests: ["GET"]
   - url: https://reqres.in

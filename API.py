@@ -1,7 +1,6 @@
 import pytest
 import requests
 import yaml
-import json
 from config import *
 
 
